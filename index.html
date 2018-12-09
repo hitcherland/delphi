@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <script type="text/javascript" src="js/meta.js"></script>
+        <script type="text/javascript" src="js/time.js"></script>
+        <script type="text/javascript" src="js/filters.js"></script>
+        <script type="text/javascript" src="js/audio.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/delphi.css"/>
+    </head>
+    <body>
+        <delphi-beat bpm="120">
+            <delphi-gain gain=0.4>
+                <delphi-reverb duration="1.5" decay="1">
+                    <delphi-clock period=1>
+                        <delphi-tone pitch="1" type="sine">
+                            AAA.C.E.
+                        </delphi-tone>
+                    </delphi-clock>
+                    <delphi-clock period=2>
+                        <delphi-tone duration=2 pitch="2" type="sine">
+                            AAA.C.E.
+                        </delphi-tone>
+                    </delphi-clock>
+                    <delphi-gain gain=0.5>
+                        <delphi-clock period=4>
+                            <delphi-tone duration=4 pitch="3" type="square">
+                                AAA.C.E.
+                            </delphi-tone>
+                        </delphi-clock>
+                    </delphi-gain>
+                </delphi-reverb>
+
+            </delphi-gain>
+        </delphi-beat>
+    </body>
+</html>

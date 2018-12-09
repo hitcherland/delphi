@@ -1,0 +1,16 @@
+
+delphi-tone,
+delphi-clock,
+delphi-beat,
+delphi-gain,
+delphi-reverb {
+    border: 1px solid black;
+    padding: 10px;
+    display: table;
+}
+
+delphi-tone {
+    min-width: 10px;
+    min-height: 10px;
+    padding: 10px;
+}
